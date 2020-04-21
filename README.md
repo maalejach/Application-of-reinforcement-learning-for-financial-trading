@@ -4,7 +4,7 @@ The Financial Trading System that we chose is inspired by F. Bertoluzzo & al "Te
 
 We start by defining the state as the last five percentage returns of the traded asset (corresponding to the last five trading days): 
 
-$$latex s_t = (r_{t-4}, r_{t-3}, r_{t-2}, r_{t-1}, r_t)$$
+$latex s_t = (r_{t-4}, r_{t-3}, r_{t-2}, r_{t-1}, r_t)$
 
 Where $r_t$ is the log return of the asset $r_t = log(P_t) - log(P_{t-1})$
 
